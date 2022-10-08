@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <title>CODELEGION'S</title>
+  </head>
+  <body>
+
+<!-- --------------------------------------------------- CONTEUDO -------------------------------------------  -->
+<div class="main">
+  <h1>CODELEGION'S</h1>
+      <form>
+          <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem"></textarea>
+
+          <select name="codigo" id="codigo">
+              <option disabled selected>Código</option>
+              <option value="base64">Base 64</option>
+              <option value="cesar">Cifra de Cesar</option>
+          </select>
+
+          <fieldset class="keyDiv">
+              <label for="chave">Incremento 1-25</label>
+              <input type="number" id="chave" value="1" max="26" />
+          </fieldset>
+
+          <fieldset class="codeRadio">
+            <div class="divR">
+                <input type="radio" name="code" class="radio" id="code" />
+                <label for="codificar">Codificar</label>
+            </div>
+            <div class="divR">
+                <input type="radio" name="code" class="radio" id="decode" />
+                <label for="decodificar">Decodificar</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <label for="resultado">Result</label>
+                <textarea name="resultado" id="resultado" readonly></textarea>
+          </fieldset>
+
+            <button id="btnResult">
+                <p>CODE/ENCODE</p>
+            </button>
+      </form>
+</div>
+
+<!-- --------------------------------------------------- CONTEUDO -------------------------------------------  -->
+
+
+<!-- ---------------------------------------------------- footer --------------------------------------- -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <div class="w3-xlarge w3-padding-16">
+      <a href="https://fb.com"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://instagram.com"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+      <a href="https://github.com/caaiopereira"><i class="fa fa-github w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/caio-pereira-oliveira/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Legion';
+  src: url('/font/Legion.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Multivac';
+  src: url('/font/Multivac.ttf') format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/img/codelegion.gif");
+  background-size: auto 115%;
+  background-attachment: fixed, scroll;
+  font-family: 'Multivac', 'sans-serif';
+}
+.main{
+  width: 45%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  color: white;
+  border: solid darkred;
+  margin-top: 40px;
+  opacity: 89%;
+}
+h1 {
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Legion', 'sans-serif';
+}
+fieldset {
+  border: none;
+}
+select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+textarea {
+  width: 100%;
+  height: 70px;
+  margin: 10px ;
+  padding: 12px;
+  color: darkred;
+  font-weight: bolder;
+  background-color: black;
+  font-size: 15px;
+  border: darkred solid 2px;
+}
+textarea::selection{
+  background-color: white;
+  color: black;
+}
+.keyDiv {
+  background-color: black;
+  float: right;
+  width: 55%;
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+.keyDiv input {
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  font-size: 15px;
+  text-align: center;
+  background-color: black;
+  color: darkred;
+  border: darkred solid 2px;
+  border-radius: 15px;
+}
+#codigo{
+  background-color: black;
+  color: darkred;
+  border: darkred solid 2px;
+  width: 44%;
+  text-align: center;
+  border-radius: 15px;
+}
+.codeRadio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+.divR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btnResult {
+  font-size: 17px;
+  cursor: pointer;
+  background-color: black;
+  color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+footer{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: darkred;
+}
+@media only screen and (min-width: 360px) and (max-width: 960px){
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+#btnResult {
+    border: none;
+  }
+  .codeRadio {
+    display: block;
+  }
+  .main{
+    width: 90%;
+  }
+}
