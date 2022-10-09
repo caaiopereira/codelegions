@@ -29,6 +29,7 @@ body {
   opacity: 89%;
 }
 h1 {
+  letter-spacing: .4rem;
   color: white;
   margin: 10px;
   text-align: center;
@@ -48,7 +49,7 @@ textarea {
   height: 70px;
   margin: 10px ;
   padding: 12px;
-  color: darkred;
+  color: rgb(240, 9, 9);
   font-weight: bolder;
   background-color: black;
   font-size: 15px;
@@ -73,13 +74,13 @@ textarea::selection{
   font-size: 15px;
   text-align: center;
   background-color: black;
-  color: darkred;
+  color: rgb(240, 9, 9);
   border: darkred solid 2px;
   border-radius: 15px;
 }
 #codigo{
   background-color: black;
-  color: darkred;
+  color: rgb(240, 9, 9);
   border: darkred solid 2px;
   width: 44%;
   text-align: center;
@@ -100,7 +101,7 @@ textarea::selection{
   font-size: 17px;
   cursor: pointer;
   background-color: black;
-  color: darkred;
+  color: rgb(240, 9, 9);
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -109,12 +110,13 @@ footer{
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-  color: darkred;
+  color: rgb(240, 9, 9);
 }
 @media only screen and (min-width: 360px) and (max-width: 960px){
   h1 {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
+    padding-bottom: 20px;
   }
 #btnResult {
     border: none;
@@ -124,5 +126,17 @@ footer{
   }
   .main{
     width: 90%;
+  }
+  .keyDiv{
+    width: 100%;
+  }
+  #codigo{
+    width: 100%;
+  }
+  .keyDiv Input{
+    width: 20%;
+  }
+  body{
+    background-position: 50%;
   }
 }
