@@ -137,3 +137,28 @@ footer{
     width: 20%;
   }
 }
+@media only screen and (min-width: 280px) and (max-width: 320px){
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+#btnResult {
+    border: none;
+  }
+  .codeRadio {
+    display: block;
+  }
+  .main{
+    width: 90%;
+  }
+  .keyDiv{
+    width: 100%;
+  }
+  #codigo{
+    width: 100%;
+  }
+  .keyDiv Input{
+    width: 20%;
+  }
+}
