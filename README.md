@@ -8,3 +8,4 @@
         GIF, Imagens e Fonts
         Criptografia de letras, frases
         Link para redes sociais
+        Responsivo para mobile
