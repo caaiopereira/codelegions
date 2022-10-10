@@ -15,7 +15,7 @@ body {
   background-image: url("/img/codelegion.gif");
   background-size: auto 120%;
   background-attachment: fixed, scroll;
-  font-family: 'Multivac', 'sans-serif';
+  font-family: 'Multivac','Legion','sans-serif';
 }
 .main{
   width: 45%;
@@ -33,7 +33,7 @@ h1 {
   color: white;
   margin: 10px;
   text-align: center;
-  font-family: 'Legion', 'sans-serif';
+  font-family: 'Legion','Multivac','sans-serif';
 }
 fieldset {
   border: none;
