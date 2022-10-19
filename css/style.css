@@ -59,10 +59,6 @@ textarea::selection{
   background-color: white;
   color: black;
 }
-textarea input:focus{
-  outline:none;
-  border-color: darkred;
-}
 .keyDiv {
   background-color: black;
   float: right;
